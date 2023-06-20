@@ -18,12 +18,11 @@ section {
 
 form {
   margin: 40px auto;
-  padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
 
-  width: 40%;
+  width: 30%;
   box-shadow: 0 0 5px 0px #abababae;
   color: #000000ae;
   font-family: system-ui, -apple-system;

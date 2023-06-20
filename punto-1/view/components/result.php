@@ -1,6 +1,6 @@
-<div>
+<div class="result">
 <?php if (!empty($messageError)): ?>
-        <p><?php echo $messageError; ?></p>
+        <p class="error_message"><?php echo $messageError; ?></p>
     <?php endif; ?>
     
     <?php    

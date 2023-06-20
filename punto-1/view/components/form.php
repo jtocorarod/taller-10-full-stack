@@ -24,13 +24,13 @@
                 >    
         </div> 
         <div>
-            <label for="operation-type"> Seleccione la operación que desea realizar</label>
+            <label for="operation-type"> Seleccione la operación que desea realizar:</label>
                <select name="operation_type" 
                id="operation-type">
                 <option value="1">Suma</option>
-                <option value="B">Resta</option>
-                <option value="C">Multiplicación</option>
-                <option value="D">Division</option>
+                <option value="2">Resta</option>
+                <option value="3">Multiplicación</option>
+                <option value="4">Division</option>
             </select> 
             
         </div>   
