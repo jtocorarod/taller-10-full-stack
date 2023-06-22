@@ -10,7 +10,7 @@
             $this->id = $idP;
             $this->name = $nameP;
             $this->lastName = $lastNameP;
-            $this->idNUmber = $idNumberP;
+            $this->idNumber = $idNumberP;
         }
 
         public function  getId(){
@@ -18,7 +18,7 @@
         }
 
         public function  getName(){
-            return $this->idname;
+            return $this->name;
         }
 
         public function  getLastName(){

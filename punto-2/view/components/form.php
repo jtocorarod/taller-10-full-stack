@@ -5,8 +5,9 @@
     <h2>Calcula si eres mayor de Edad </h2>
     <div class="form__row">
         <div>
-            <label for="age-user">Ingresa tu Edad:</label>
+            <label for="age-user" >Ingresa tu Edad:</label>
                 <input
+                require
                 id="age-user" 
                 type="text" 
                 name="age_user"

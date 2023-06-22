@@ -19,3 +19,7 @@
 
 <h3>6 - Conexión</h3>
 <img src="./public/images/connection.png" alt="mysql">
+
+<h3>7 - Muestra de datos en Pantalla</h3>
+<img src="./public/images/bd.png" alt="bd">
+
