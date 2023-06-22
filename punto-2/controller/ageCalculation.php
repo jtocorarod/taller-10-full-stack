@@ -1,25 +1,27 @@
 <?php
 $ageMessage = "";
 $ageUser = 0;
+$nameUser = "";
 
-if (isset($_POST["age_user"])){
+if ((isset($_POST["name_user"]) && (isset($_POST["age_user"])))){
 
     $ageUser= $_POST["age_user"];
+    $nameUser= $_POST["name_user"];
 
-    if($ageUser != ""){
+    if(($nameUser != "") && ($ageUser != "")){
 
         if (is_numeric($ageUser)){      
             $ageUser= intval($ageUser);
 
                 if($ageUser >= 18) 
                     {
-                        $ageMessage = "Es mayor de edad";
+                        $ageMessage = $nameUser." eres mayor de edad";
                     }
                         else{
-                            $ageMessage = "No es mayor de edad";
+                            $ageMessage = $nameUser." no eres mayor de edad";
                         }                   
         }else{
-            $messageError = "Los valores ingresados deben ser númericos.";
+            $messageError = "Los valores ingresados en la edad deben ser númericos.";
             }
 
         }else{

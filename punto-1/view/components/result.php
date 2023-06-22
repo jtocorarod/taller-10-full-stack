@@ -3,7 +3,9 @@
         <p class="error_message"><?php echo $messageError; ?></p>
     <?php endif; ?>
     
-    <?php    
-    echo "su resultado es " .$result;
-    ?>
+    <?php if ($result != ""): ?>
+        <p><?php echo "Su resultado es: " .$result; ?></p>
+    <?php endif; ?>
+
+  
 </div>

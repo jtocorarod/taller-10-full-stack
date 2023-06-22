@@ -1,0 +1,9 @@
+.message {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.error_message {
+        color: red;
+        font-size: 16px; 
+}

@@ -1,7 +1,7 @@
 <?php
 include "./controller/calculationUtilsController.php";
 
-$result = 0;
+$result = "";
 $messageError = "";
 
 
