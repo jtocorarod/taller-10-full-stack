@@ -11,8 +11,7 @@
     <hr>
     
     <?php include "./view/components/form.php"; ?>
-
     <?php include "./view/components/message.php"; ?>
-    <?php include "./view/components/info.php"; ?>
+    
 </body>
 </html>
